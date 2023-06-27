@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main_container">
+        <h1 class="titel">Корзина</h1>
+
+        <div class="items-container">
+            <div class="item">
+                <div class="image-container">
+                    <img class="image" src="/images/jeans.webp" alt="jeans">
+                </div>
+                <div class="description">
+                    <h4>Tezenis джинсы</h4>
+                    <p>Цвет: белый</p>
+                    <p>Размер: М</p>
+                    <p>Количество: 1</p>
+                </div>
+                <div class="price1">8499</div>
+                <span class="currency">руб.</span>
+            </div>
+
+            <div class="item">
+                <div class="image-container">
+                    <img class="image" src="/images/dress_marc.webp" alt="dress">
+                </div>
+                <div class="description">
+                    <h4>Marc O'Polo платье</h4>
+                    <p>Цвет: бежевый</p>
+                    <p>Размер: М</p>
+                    <p>Количество: 1</p>
+                </div>
+                <div class="price2">21990</div>
+                <span class="currency">руб.</span>
+            </div>
+
+            <div class="item">
+                <div class="image-container">
+                    <img class="image" src="/images/vans.webp" alt="sneakers">
+                </div>
+                <div class="description">
+                    <h4>Vans кеды Old Skool Bolt</h4>
+                    <p>Цвет: черно-белый</p>
+                    <p>Размер: 39</p>
+                    <p>Количество: 1</p>
+                </div>
+                <div class="price3">8499</div>
+                <span class="currency">руб.</span>
+            </div>
+
+            <div class="item">
+                <div class="image-container">
+                    <img class="image" src="/images/tshirt.webp" alt="tshirt">
+                </div>
+                <div class="description">
+                    <h4>UNIQLO футболка DRY</h4>
+                    <p>Цвет: черный</p>
+                    <p>Размер: М</p>
+                    <p>Количество: 1</p>
+                </div>
+                <div class="price4">599</div>
+                <span class="currency">руб.</span>
+            </div>
+        </div>
+        <div class="total-price">
+            <button class="button" type="button" onclick="discountedTotal()">Использовать купон на 20% скидку</button>
+            <div class="total">Итого:
+                <span id="total"></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
